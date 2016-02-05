@@ -1,0 +1,18 @@
+
+{
+  "name": "Vote Knope",
+  "description": "Automatically delete +1 comments on GitHub issues",
+  "repository": "https://github.com/keith/vote-knope",
+  "keywords": ["python", "github"],
+  "env": {
+  	"hook_secret": {
+      "description": "Github hook secret"
+    },
+    "github_user": {
+      "description": "Github Username"
+    },
+    "github_pass": {
+      "description": "Github Password"
+    }
+  }
+}

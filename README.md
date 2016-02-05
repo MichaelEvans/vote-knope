@@ -27,6 +27,8 @@ make ngrok
 
 ### Heroku usage
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ```sh
 # Generate a secret for use with the webhook
 openssl rand -hex 32 | pbcopy
